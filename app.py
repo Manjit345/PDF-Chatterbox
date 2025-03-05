@@ -44,7 +44,7 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("PDF Chatterbox")
-    st.header("PDF Chatterbox -Interact with your PDF(s)")
+    st.header("PDF Chatterbox - Interact with your PDF(s)")
 
     with st.sidebar:
         st.title("File Selection:")
