@@ -4,4 +4,5 @@ langchain==0.2.16
 python-dotenv==1.0.1
 huggingface-hub==0.24.6
 sentence-transformers==3.0.1
-faiss-cpu==1.7.3
+faiss-cpu==1.7.3
+-U langchain-community==0.3.19
