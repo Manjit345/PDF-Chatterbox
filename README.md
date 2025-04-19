@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ### 3. Set Up Environment Variables
 Create a `.env` file in the project root and add your HuggingFace API Token in the following format:
 ```
-HUGGINGFACEHUB_API_TOKEN=your_hugging_face_api_key_here
+HUGGINGFACE_API_TOKEN=your_hugging_face_api_key_here
 ```
 
 ### 4. Run the Application
