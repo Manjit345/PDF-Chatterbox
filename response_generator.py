@@ -5,7 +5,7 @@ def get_model():
     model = HuggingFaceHub(
         repo_id="mistralai/Mistral-7B-Instruct-v0.3", 
         model_kwargs={"temperature": 0.5}, 
-        huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_KEY")
+        huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
     )
     return model
 
